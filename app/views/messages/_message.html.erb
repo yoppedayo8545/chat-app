@@ -1,18 +1,10 @@
   <div class="messages">
     <ul class="message">
       <li class="message-name"><%= message.user.name %></li>
-      <li class="message-time"><%= message.created_at %></li>
+      <li class="message-time"><%= l message.created_at %></li>
     </ul>
     <div class="message-text">
     <%= message.content %>
     </div>
   </div>
-  <div class="messages">
-    <ul class="message">
-      <li class="message-name">aoi</li>
-      <li class="message-time">2020/3/31(Wed) 12:43:30</li>
-    </ul>
-    <div class="message-text">
-    こんにちは！
-    </div>
-  </div>
+  
