@@ -38,6 +38,7 @@
   height: calc( 100vh - 100px - 90px );
   background-color: #fafafa;
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 
 .chat-footer {
@@ -93,7 +94,6 @@
 
 .message {
   display: flex;
-  overflow: scroll;
 }
 
 .message-name {
@@ -122,7 +122,6 @@
 .form-text {
   width: 100%;
   padding-left: 10px;
-  color: white;
   height: 50px;
   border: none;
 }
